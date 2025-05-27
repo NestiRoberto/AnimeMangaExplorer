@@ -1,0 +1,102 @@
+body
+{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    background-color: #343a40;
+    color: #f8f9fa;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer
+{
+    text-align: left;
+    background-color: #11161D;
+}
+
+main
+{
+    flex-grow: 1;
+}
+
+main.no-results 
+{
+    background-color: #11161D;
+}
+
+.author-details-container, .manga-realized-container 
+{
+    background-color: #495057;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 30px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 
+{
+    margin-bottom: 20px;
+    color: #f8f9fa;
+}
+
+.results-container 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    padding: 0 15px;
+}
+
+.result-card 
+{
+    background-color: #495057;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.result-card img 
+{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.btn-cerca 
+{
+    font-size: 1.5rem;
+    padding: 20px 40px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    width: 5%;
+    max-width: 400px;
+    margin: 7px;
+    background-color: #007bff;
+    color: white;
+    border: 2px solid transparent;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-cerca:hover 
+{
+    transform: scale(1.1);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    background-color: #0056b3;
+    border: 2px solid #adb5bd;
+}
+
+.separator 
+{
+    border-top: 1px solid #ccc;
+}

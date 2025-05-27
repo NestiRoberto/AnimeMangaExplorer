@@ -1,0 +1,60 @@
+body
+{
+    background-color: #343a40;
+    color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer
+{
+    text-align: left;
+    background-color: #11161D;
+}
+
+main
+{
+    flex-grow: 1;
+}
+
+main.no-results
+{
+    background-color: #11161D;
+}
+
+.anime-details-container
+{
+    background-color: #495057;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 30px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.anime-details-container h2
+{
+    color: #f8f9fa;
+    margin-bottom: 20px;
+}
+
+.anime-details-container p 
+{
+    color: #e9ecef;
+    margin-bottom: 10px;
+}
+
+.separator 
+{
+    border-top: 1px solid #ccc;
+}
