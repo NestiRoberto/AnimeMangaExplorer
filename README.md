@@ -1,0 +1,1 @@
+AnimeMangaExplorer è un'app web per esplorare un ampio catalogo di anime e manga tramite API. Consente ricerche dettagliate, accesso a schede con trama, valutazioni, generi e filtri personalizzati. Offre un'esperienza interattiva e aggiornata. Linguaggi usati: HTML, CSS, JavaScript.
